@@ -15,7 +15,6 @@ L.tileLayer('https://api.mapbox.com/styles/v1/hshin8461/cjz1lqxdt6r7s1ckqntjk3i8
 	id: 'mapbox.streets'
 }).addTo(map);
 
-// Shows user's bathroom
 function onLocationFound(e) {
 	var radius = e.accuracy / 2;
 
