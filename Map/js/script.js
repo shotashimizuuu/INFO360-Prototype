@@ -155,6 +155,20 @@ var gamesDescription = ('<h1>HUB Games</h1>' +
 	'<li>Take a break to get up and stretch out your muscles, focusing on how each muscle feels.</li></ul>'
 );
 
+// Ritual
+
+var statueDescription = ('<h1>The Statue of George Washington</h1>'+
+	'<p>Description placeholder</p>' +
+	'<h2>Practices</h2>' +
+	'<ul><li>Practice placeholder.</li></ul>'
+);
+
+var redSquareDescription = ('<h1>Red Square</h1>'+
+	'<p>Description placeholder</p>' +
+	'<h2>Practices</h2>' +
+	'<ul><li>Practice placeholder.</li></ul>'
+);
+
 
 // Stillness Markers
 var paccar = L.marker([47.6591, -122.3086]).bindPopup(paccarDescription);
@@ -185,6 +199,10 @@ var burke = L.marker([47.654522, -122.302910]).bindPopup(burkeDescription);
 var ima = L.marker([47.653620, -122.301517]).bindPopup(imaDescription);
 var games = L.marker([47.655764, -122.304922]).bindPopup(gamesDescription);
 
+// Ritual Markers
+var statue = L.marker([47.656082, -122.311125]).bindPopup(statueDescription);
+redSquare = L.marker([47.656042, -122.309373]).bindPopup(redSquareDescription);
+
 
 // Layer groups
 var stillness = L.layerGroup([paccar, grieg, sakuma, horticulture]);
@@ -192,15 +210,19 @@ var creativity = L.layerGroup([skyspace, ecc, wallDeath, parnassus]);
 var generative = L.layerGroup([herbGarden, sylvan, dock, henry]);
 var relational = L.layerGroup([hub, intellectual, rainierVista, quad]);
 var movement = L.layerGroup([burke, ima, games, rainierVista]);
+var ritual = L.layerGroup([statue, redSquare]);
 
 // objects for the layers
 var overlayMaps = {
-	"Stillness": stillness,
-    "Creativity": creativity,
-	"Generative": generative,
-	"Relational": relational,
-	"Movement" : movement
+	"Relax & Restore": stillness,
+    "Be Creative": creativity,
+	"Personal Visualization": generative,
+	"Restoring Through Others": relational,
+	"Wake Up Your Body" : movement,
+	"Habitual Reflection" : ritual
 };
 
+
+
 // Adds the layers to the map
-L.control.layers(overlayMaps).addTo(map);	
+L.control.layers(null, overlayMaps).addTo(map);	

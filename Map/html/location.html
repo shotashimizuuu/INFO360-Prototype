@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
 <head>
 
     <meta charset="utf-8" />
@@ -8,19 +9,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     
     <title>Drumheller Fountain</title>
+=======
+>>>>>>> faacd5b900f8e65148075bac3c87f46766b359fd
 
+<head>
     <link rel="stylesheet" href="../css/style.css">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
+<!-- This file contains the basic layout of the location page (i.e. The one
+    that is linked to from location pop-ups on the map). -->
+
 <body>
-<div class="container">
-    <div class="locationGrid">
-        <div class="locationNav centerText">
-            <a href="index.html" class="navMap">Map</a>
-            <a href="practice.html" class="navProfile">Profile</a>
-            <a href="index.html" class="navBack">Back</a>
+    <section>
+        <button id="back_to_locations" class="btn">Locations</button>
+        <h1 id="location_title"> Location Name </h1>
+        <img id="location_image" class="img-fluid rounded" src="images/waterfront.jpg" alt="Location image">
+        <a class="btn btn-primary" href="#" role="button">Get Directions</a>
+        <p>This is a brief location description.</p>
+        <button id="directions" class="btn">
+            <p> Get Directions </p>
+        </button>
+
+    </section>
+    <h1 id=" suggested_practices"> Available Practices </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <button id="practice" class="btn">
+                    <h2 id="practice_title"> Practice Title </h2>
+                    <p id="duration"> # min </p>
+                </button>
+            </div>
         </div>
+        <div class="row">
+            <div class="col-sm">
+                <button id="practice" class="btn">
+                    <h2 id="practice_title"> Practice Title </h2>
+                    <p id="duration"> # min </p>
+                </button>
+            </div>
+        </div>
+<<<<<<< HEAD
         <h1 class="locationTitle centerText", style="font-family:helvetica;font:50px;font-style:bold;"> Drumheller Fountain</h1>
 
         <div class="locationImage center">
@@ -32,9 +63,23 @@
                     <p>Activities</p>
                 </div>
             </a>
+=======
+        <div class="row">
+            <div class="col-sm">
+                <button id="practice" class="btn">
+                    <h2 id="practice_title"> Practice Title </h2>
+                    <p id="duration"> # min </p>
+                </button>
+            </div>
         </div>
-        <div class="secondaryBlock"></div>
+        <div class="row">
+            <div class="col-sm">
+                <button id="practice" class="btn">
+                    <h2 id="practice_title"> Practice Title </h2>
+                    <p id="duration"> # min </p>
+                </button>
+            </div>
+>>>>>>> faacd5b900f8e65148075bac3c87f46766b359fd
+        </div>
     </div>
-</div>
 </body>
-</html>

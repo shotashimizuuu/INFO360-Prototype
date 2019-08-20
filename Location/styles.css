@@ -4,20 +4,12 @@
     margin: 20px;
 }
 
-h1 {
-    color: black;
-    font-size: 200vw;
-    padding-left: 5vw;
-    padding-top: 1vw;
-}
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-h3 {
-  margin: 15px 0px;
-}
 body{
   background: #f2f2f2;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", "Segoe UI";
+  justify-content: center;
 }
 
 .search {
@@ -87,10 +79,6 @@ body{
   font-size: 400%;
 }
 
-h1 {
-  font-size: 350%;
-}
-
 /* LOCATION PAGE */
 
 /* Title text on the location page */
@@ -99,7 +87,7 @@ h1 {
   text-align: left;
   color: black; 
   font-size: 10vw;
-  padding-left: 7vw;
+  padding-left: 5vw;
   padding-top: 3vw;
   padding-bottom: 1vw;
 }
@@ -116,43 +104,61 @@ h1 {
 
 /* Location description on location page */
 #location_desc {
-  font-size: 6vw;
+  font-size: 4vw;
   text-align: left;
+  padding-left: 5vw;
 }
 
 /* Title for suggested practices on location page */
 #suggested_practices {
-  font-size: 300%;
+  font-size: 2vw;
   text-align: left;
+  padding-left: 5vw;
+  padding-top: 1vw;
 }
 
 /* Button leading to directions */
 #directions {
-  width: 450px;
-  height: 100px;
-  color: #0066ff;
+  width: 30%;
+  height: 15%;
+  font-size: 4vw;
+  background-color: #0066ff;
+  color: #CDCDCD;
+  border-radius: 15px;
+  text-align: center;
+  display: block;
+  margin: 3vw auto;
 }
 
+#practice_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 84vw;
+  margin: auto;
+}
 /* Button leading to more information on a practice */
-#practice {
-  width: 450px;
-  height: 450px;
+#practice_card {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  border: 1px solid black;
+  border-radius: 30px;
 }
 
 /* Title of a suggested practice on location page */
 #practice_title {
-  font-size: 175%;
+  font-size: 4vw;
 }
 
 /* Duration of a suggested practice on location page */
 #duration {
-  font-size: 100%;
+  font-size: 5vw;
   color: #a8a8a8;
 }
 
 /* Back button to locations */
 #back_to_locations {
-  font-size: 200%;
+  font-size: 5vw;
   text-align: left;
   color: #277edb
 }
