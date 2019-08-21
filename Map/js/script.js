@@ -86,29 +86,29 @@ var parnassusDescription = ('<h1>Parnassus Art Gallery Cafe</h1>' +
 
 // Generative
 var herbGardenDescription = ('<h1>Medicinal Herb Garden</h1>' +
-    '<p>The Medicinal Herb Garden, a vibrant 2-acre garden near Rainier Vista, was started in 1911 by the UW Department of Pharmacy. Inherited by the Botany* department in 1979, the garden retains a collection spanning 800 to 1,000 plant taxa today. The plants come from environments all around the world – dry grassland, tropical rainforest, mountain, and desert.  Reflecting their geographic diversity, the Medicinal Herb Garden plants are used in healing traditions across hundreds of cultures.</p>' +
-    '<h2>Practices</h2>' + 
-    '<ul><li>Empathetic Visualization: Imagine you are one of the objects or people around you.</li>' +
-    '<li>Scent-imental contemplation: Think of a smell associated with a positive memory, and try to focus on it.</li>' +
-    '<li>Stress Visualization: Visualize your stress as an abstract object, make it as simple or complex as you want.</li>' +
-    '<li>Memory Alchemy: Transform an object of personal significance into a new memory.</li></ul>'
+	'<p>The Medicinal Herb Garden, a vibrant 2-acre garden near Rainier Vista, was started in 1911 by the UW Department of Pharmacy. Inherited by the Botany* department in 1979, the garden retains a collection spanning 800 to 1,000 plant taxa today. The plants come from environments all around the world – dry grassland, tropical rainforest, mountain, and desert.  Reflecting their geographic diversity, the Medicinal Herb Garden plants are used in healing traditions across hundreds of cultures.</p>' +
+	'<h2>Practices</h2>' +
+	'<ul><li>Empathetic Visualization: Imagine you are one of the objects or people around you.</li>' +
+	'<li>Scent-imental contemplation: Think of a smell associated with a positive memory, and try to focus on it.</li>' +
+	'<li>Stress Visualization: Visualize your stress as an abstract object, make it as simple or complex as you want.</li>' +
+	'<li>Memory Alchemy: Transform an object of personal significance into a new memory.</li></ul>'
 );
 var sylvanDescription = ('<h1>Sylvan Grove</h1>' +
-    '<p>A low, stone stairway vanishing into the trees leads to the Sylvan Theater, the site of early-day graduation ceremonies. This tree-enclosed hideaway features a grassy stage set with the four white columns that once graced the front stoop of the original university building</p>' +
-    '<h2>Practices</h2>' +
-    '<ul><li>Meditation</li>' +
-    '<li>Scent-imental contemplation</li></ul>'
+	'<p>A low, stone stairway vanishing into the trees leads to the Sylvan Theater, the site of early-day graduation ceremonies. This tree-enclosed hideaway features a grassy stage set with the four white columns that once graced the front stoop of the original university building</p>' +
+	'<h2>Practices</h2>' +
+	'<ul><li>Meditation</li>' +
+	'<li>Scent-imental contemplation</li></ul>'
 );
 var dockDescription = ('<h1>Conibear Shellhouse Dock</h1>' +
-    '<p>UW’s Conibear Shellhouse sits on the shores of Lake Washington and has served as the primary home for Washington Rowing since its construction in 1949.The shellhouse is located “on campus,” only a light 6-8 minute walk from Drumheller Fountain, at the center of the UW academic campus. Named for Hiram Conibear, the founding father of rowing at the UW, the shellhouse underwent a complete renovation in 2005 increasing space by 75 per cent to 47,250 square feet resulting in a unique, multi-purpose facility at the heart of the university’s athletic campus.</p>' +
-    '<h2>Practices</h2>' +
-    '<ul><li>Meditation</li>' +
-    '<li>Scent-imental contemplation</li></ul>'
+	'<p>UW’s Conibear Shellhouse sits on the shores of Lake Washington and has served as the primary home for Washington Rowing since its construction in 1949.The shellhouse is located “on campus,” only a light 6-8 minute walk from Drumheller Fountain, at the center of the UW academic campus. Named for Hiram Conibear, the founding father of rowing at the UW, the shellhouse underwent a complete renovation in 2005 increasing space by 75 per cent to 47,250 square feet resulting in a unique, multi-purpose facility at the heart of the university’s athletic campus.</p>' +
+	'<h2>Practices</h2>' +
+	'<ul><li>Meditation</li>' +
+	'<li>Scent-imental contemplation</li></ul>'
 );
 var henryDescription = ('<h1>Henry Art Gallery</h1>' +
-    '<h2>Practices</h2>' +
-    '<ul><li>Meditation</li>' +
-    '<li>Scent-imental contemplation</li></ul>'
+	'<h2>Practices</h2>' +
+	'<ul><li>Meditation</li>' +
+	'<li>Scent-imental contemplation</li></ul>'
 );
 
 // Relational 
@@ -130,7 +130,7 @@ var rainierVistaDescription = ('<h1>Rainier Vista</h1>' +
 	'<ul><li>Have a discussion with a group of people, being respectful and listening closely to each other\'s points. </li>' +
 	'<li>Take about three minutes and listen to your partner talk to you, then switch.</li></ul>'
 );
-var quadDescription = ('<h1>Quad</h1>'+
+var quadDescription = ('<h1>Quad</h1>' +
 	'<p>The Liberal Arts Quadrangle (a.k.a. The Quad) is a traditional school attraction. The quadrangle is surrounded by old fashioned buildings along with cherry blossom trees and fresh lawn. This place is great for tourists to visit, as well as students to chill and relax under the sun. </p>' +
 	'<h2>Practices</h2>' +
 	'<ul><li>Take about three minutes and listen to your partner talk to you, then switch.</li></ul>'
@@ -143,7 +143,7 @@ var burkeDescription = ('<h1>Burke Gilman Trail</h1>' +
 	'<ul><li>Walking Meditation</li></ul>'
 );
 var imaDescription = ('<h1>IMA</h1>' +
-	'<p>The intramural activity center (IMA) is a great place to stay active on campus. The IMA includes multiple gyms with exercise machines, weights, and matts, as well as a rock climbing wall, saunas, a pool, and a variety of classes taught by instructors. </p>' +
+	"<p>The Intramural Activity Center (IMA) is a great place to stay active on campus. The IMA includes multiple gyms with exercise machines, weights, and matts, as well as a rock climbing wall, saunas, a pool, and a variety of classes taught by instructors. <a href='../../Location/ima.html'> Learn more.</a></p>" +
 	'<h2>Practices</h2>' +
 	'<ul><li>Climbing wall</li>' +
 	'<li>Inspire a healthy body and mind with a mindful yoga class</li></ul>'
@@ -157,13 +157,13 @@ var gamesDescription = ('<h1>HUB Games</h1>' +
 
 // Ritual
 
-var statueDescription = ('<h1>The Statue of George Washington</h1>'+
+var statueDescription = ('<h1>The Statue of George Washington</h1>' +
 	'<p>Description placeholder</p>' +
 	'<h2>Practices</h2>' +
 	'<ul><li>Practice placeholder.</li></ul>'
 );
 
-var redSquareDescription = ('<h1>Red Square</h1>'+
+var redSquareDescription = ('<h1>Red Square</h1>' +
 	'<p>Description placeholder</p>' +
 	'<h2>Practices</h2>' +
 	'<ul><li>Practice placeholder.</li></ul>'
@@ -183,7 +183,7 @@ wallDeath = L.marker([47.655225, -122.318511]).bindPopup(wallDeathDescription);
 parnassus = L.marker([47.658391, -122.306556]).bindPopup(parnassusDescription);
 
 // Generative Markers
-var herbGarden = L.marker([47.652580, -122.307884]).bindPopup(herbGardenDescription); 
+var herbGarden = L.marker([47.652580, -122.307884]).bindPopup(herbGardenDescription);
 var sylvan = L.marker([47.652705, -122.306400]).bindPopup(sylvanDescription);
 var dock = L.marker([47.652742, -122.299895]).bindPopup(dockDescription);
 var henry = L.marker([47.656149, -122.311776]).bindPopup(henryDescription);
@@ -215,11 +215,11 @@ var ritual = L.layerGroup([statue, redSquare]);
 // objects for the layers
 var overlayMaps = {
 	"Relax & Restore": stillness,
-    "Be Creative": creativity,
+	"Be Creative": creativity,
 	"Personal Visualization": generative,
 	"Restoring Through Others": relational,
-	"Wake Up Your Body" : movement,
-	"Habitual Reflection" : ritual
+	"Wake Up Your Body": movement,
+	"Habitual Reflection": ritual
 };
 
 

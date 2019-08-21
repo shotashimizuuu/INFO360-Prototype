@@ -91,6 +91,15 @@ h1 {
   font-size: 350%;
 }
 
+/* leaflet map covers entire screen */
+html, body {
+  height: 100%;
+}
+
+#map {
+  height: 100%;
+  width: auto;
+}
 /* LOCATION PAGE */
 
 /* Title text on the location page */
